@@ -58,6 +58,7 @@ Input our image, convert to a tensofr , a set of numbers. A tensor is a multi le
 Looking over all the imgaes, for each , load into a numpy array, and detect the classes,utilize this fucntions to label on the image, whre the class is and what it is. Save those outptuimages to imge after. 
 Loading models from a file, loading labels form afile, telling to detect object nad models in afoler, and loop over images and ouptput another inage with the little box drwops where the object is. Visualize box and label on arragu of image. Convience build into this api, people want to do the sort fo things a lot, we don’t want to write it from srach. Able to do this in a very short amount of code, beaucse tf already have thes nice api to do this. We don’t aste abuhcn of time to imeplementing things. 
 Already trained model, we’ll tlak about how to expand it, whrer we put training in. right now, gollge has create this model, if we want to trian the model on asset of certain images, intruder, but those models are firatly robst in thismmoment, assume now the arctuectur is good. 
+https://c2.staticflickr.com/6/5713/30364911106_56e2f1cd01_b.jpg
 Jip image, copy url wg url, pull down the image
 Mapping things in ft floder will show up in docker image. Environment whre we run tensorflow. 
 
