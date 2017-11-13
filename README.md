@@ -9,7 +9,7 @@ There might be several reasons you can't get the relationship out of the network
 
 By combining things in a lot of different ways, we get flexibility in combining inputs. The process of randomly changing weights and bias until the function totally mimic the relationship is what we called “training process’, a combination of defining the function and parameterization of inputs. The function providing a good output is a trained model. 
 ## Intro to Tensorflow
-The analysis model we wnat to build is about obejct detection. Currently, Tensorflow whcih came out of google is a good choice, because is was decided for the very large sacle  what it is. software project , people use it often from pyton, c++, came out of goole, they hwta to do this like this at very large scale,like google type scale. Nureonetwotk and large optimization and other types of machine leaning and other tyoes ofo umnerical computing. Internally fro goole  speech recongnition, products or inreaseingly their image RECOGNITION PROJECTS.
+The analysis model we want to build is about object detection and we want to do it through a neural network. Currently, Tensorflow came out of google is a good choice, because it was designed for very large scale analyses, including those using neural network.
 ### Why Tensorflow
 1. Portable
 Scikit-learn (formerly scikits.learn) is a free software machine learning library for the Python programming language.
