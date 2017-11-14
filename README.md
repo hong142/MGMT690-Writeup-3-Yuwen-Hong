@@ -19,7 +19,7 @@ One of the advantage of Tensorflow is its portableness. It uses graph-based comp
 
 <img src="https://github.com/hong142/MGMT690-Writeup-3-Yuwen-Hong/blob/master/graph.png" width="350">
 
-When operations are broken down into the graph form, your complied codes are portable as any function at the lowest level can be represented by this graph and is well defined. You can implement the computational stuff in almost any environment. On the other hand, Scikitlearn, another commonly used free software library for machine learning, has many restrictions on input, scale and running environment. It requires systems that can install the software and can only run certain types of data on a relatively small scale. 
+When operations are broken down into the graph form, your complied codes are portable as any function at the lowest level can be represented by this graph and is well defined. You can implement the computational stuff in almost any environment. On the other hand, Scikitlearn, another commonly used free software library for machine learning, has many restrictions on input, scale and running environment. It requires systems that can install the software and only certain types of data can be run on a relatively small scale. 
 
 2. Distributed, Flexible
 
