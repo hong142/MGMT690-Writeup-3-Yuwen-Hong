@@ -2,6 +2,7 @@
 In previous writeups, we've discussed our team's plan to develop and implement a pipeline for security system object detection analyses, and we've covered the setup of data storage and organization. Our next focus is the analysis and machine learning process. This writeup introduces Tensorflow, the software we are going to use for the process, based on why we choose it and how we use it. 
 ## Intro to Neural Nets
 Before we talk about the Tensorflow, we need to briefly introduce the concept of 'neural network', becuase its our choice of approch for our model building. In artificial context, it means a network of nodes connected in a way similar to the biological neural network in a brain. The picture below shows a relatively simple neural network example. Basically, the whole network represents a function used in the machine learning process, with each node represents a sub-function. The left side is input layer and each node represents an input (feature). The data pass through those functions to reach the right side, which gives us the output. More complication can be added to the network if more hidden layers is added, although a single hidden layer is powerful enough for majority of classification tasks.
+<img src="https://c2.staticflickr.com/6/5713/30364911106_56e2f1cd01_b.jpg" width="350">
 
 The assumption here is that some relationships exist between input elements and output elements. We define the inputs, outputs and a basic structure. The network is going to figure out those relationships for us, in other words, getting the proper weights of each inputs as well as bias for the ultimate function.
 
@@ -14,6 +15,7 @@ The analysis model we want to build is about object detection and we want to do 
 1. Portable
 
 One of the advantage of Tensorflow is its portableness. It uses graph-based computation, in which any sort of operation you do on a computer can be represented as a graph. Here is an example of graph representation of a complicated function. 
+<img src="https://c2.staticflickr.com/6/5713/30364911106_56e2f1cd01_b.jpg" width="350">
 
 When operations are broken down into the graph form, your complied codes are portable as any function at the lowest level can be represented by this graph and is well defined. You can implement the computational stuff in almost any environment. On the other hand, Scikitlearn, another commonly used free software library for machine learning, has many restrictions on input, scale and running environment. It requires systems that can install the software and can only run certain types of data on a relatively small scale. 
 
@@ -25,7 +27,7 @@ However, in general, we only use Tensorflow for distributing machine learning or
 
 3. Active, Supported
 
-In addition to the flexibility in terms of where and how you can run it, Tensorflow is also well supported. It has an active community, where probably thousands of people are working on it every day to get bugs fixed and make it better. If you search for Tensorflow on Github, there are currently more than 21K repository and more than 241K commits about it. You can expect to get answers or solutions for your problems quickly through the communities such as Slack and Github. 
+In addition to the flexibility in terms of where and how you can run it, Tensorflow is also well supported. It has an active community, where probably thousands of people are working on it every day to get bugs fixed and make it better. If you search for Tensorflow on Github, there are currently more than 21K repository and more than 241K commits about it. You can expect to get answers or solutions for your problems quickly through the communities such as Slack and Github. <img src="https://c2.staticflickr.com/6/5713/30364911106_56e2f1cd01_b.jpg" width="350">
 
 But at the same time, you can’t expect to contact a certain service person to get your problems solved in a short amount of time with guarantee. Here comes the tradeoff between open source and proprietary software. With open source, you do not have to pay for anything, so you also do not get any customized customer support. That’s why it’s important to make sure the open source software you intend to use has an active community around it, so that you would not stuck in a problem forever. Besides, you also need to make sure the software is compatible with your intended environment. As we mentioned, Tensorflow is compatible with most environment.
 
