@@ -12,12 +12,16 @@ By combining things in a lot of different ways, we get flexibility in combining 
 The analysis model we want to build is about object detection and we want to do it through a neural network. Currently, Tensorflow came out of google is a good choice, because it was designed for very large scale analyses, including those using neural network.
 ### Why Tensorflow
 1. Portable
+
 One of the advantage of Tensorflow is its portableness. It uses graph-based computation, in which any sort of operation you do on a computer can be represented as a graph. Here is an example of graph representation of a complicated function. 
 
 When operations are broken down into the graph form, your complied codes are portable as any function at the lowest level can be represented by this graph and is well defined. You can implement the computational stuff in almost any environment. On the other hand, Scikitlearn, another commonly used free software library for machine learning, has many restrictions on input, scale and running environment. It requires systems that can install the software and can only run certain types of data on a relatively small scale. 
+
 2. Distributed, Flexible
+
 Another advantage of Tensorflow due to its graphical representation is that works can be distributed and in a flexible way. You may have noticed that while some of steps in the function have to be executed consequently, some of them can run simultaneously. By setting things up in graphics, we can separate different steps, and distribute them across different machines or instances in a cloud, so that we can expect to run things much faster than we would if we run all of the steps on a single computer. Moreover, depends on the architecture or environment we assigned, we get the flexibility to distribute things in varies ways to accelerate the process and get optimization for the assigned architecture. It doesn’t matter whether the architecture is a GPU or CPU or a cluster of any of them.
- However, in general, we only use Tensorflow for distributing machine learning or image-based processing. You probably don’t want to turn to Tensorflow if you can finish the implementation shortly on a single machine. Otherwise, instead of saving time, you may actually generate extra trouble for your implementation.
+
+However, in general, we only use Tensorflow for distributing machine learning or image-based processing. You probably don’t want to turn to Tensorflow if you can finish the implementation shortly on a single machine. Otherwise, instead of saving time, you may actually generate extra trouble for your implementation.
 
 3. Active, Supported
 Another thing why tensorflow, is extreme active product, 76stars on github, if we look at the 141 open commits 
