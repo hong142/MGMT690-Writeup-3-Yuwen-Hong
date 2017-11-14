@@ -24,17 +24,11 @@ Another advantage of Tensorflow due to its graphical representation is that work
 However, in general, we only use Tensorflow for distributing machine learning or image-based processing. You probably don’t want to turn to Tensorflow if you can finish the implementation shortly on a single machine. Otherwise, instead of saving time, you may actually generate extra trouble for your implementation.
 
 3. Active, Supported
-Another thing why tensorflow, is extreme active product, 76stars on github, if we look at the 141 open commits 
-evertyh snlge day on the project, actively making it better, fixing bugs.
 
-Supported. Active community, there thousands of people working on it everyday. Slack channel, github issues, you going to get responsequicklyask a question, wenot gon implements that, you get an answer, if it’s a bug, it work just because it so large companies. 
+In addition to the flexibility in terms of where and how you can run it, Tensorflow is also well supported. It has an active community, where probably thousands of people are working on it every day to get bugs fixed and make it better. If you search for Tensorflow on Github, there are currently more than 21K repository and more than 241K commits about it. You can expect to get answers or solutions for your problems quickly through the communities such as Slack and Github. 
 
+But at the same time, you can’t expect to contact a certain service person to get your problems solved in a short amount of time with guarantee. Here comes the tradeoff between open source and proprietary software. With open source, you do not have to pay for anything, so you also do not get any customized customer support. That’s why it’s important to make sure the open source software you intend to use has an active community around it, so that you would not stuck in a problem forever. Besides, you also need to make sure the software is compatible with your intended environment. As we mentioned, Tensorflow is compatible with most environment.
 
-
-Tradeoff,using open sourcing things. Don’t have get token or key for everybody.don’t have to pay anything.
-Have to sing up with them, mysetting paying hundred and thousnads of dollars.
-Cost versus robustic and customer support. I can’t call up someone in the googlwe for a problem and expect to be solved in two hours. When you using op projects, ow cost to entry, be careful with whigh oopen source project to choose, we want to bein an active community center around tooling is also active. You woun’t necessarily want to choose it if its not compatible with those envioenment, if we want aws. Avarious consideration you want to taking into when you choose open souecre. 
-The trend in analytics industry is towards opned source in genral. And if you really ned, tere is ton dos of compamy you can paid to get posted solutions, advising.
 
 4. Nice Object Detection API
 For our context, inprevious write uo, we like a team,tryoing to implemte this pipeline to do analytic security,object detection tensoflowhas like knid etnkey support for object dection api, has an really nice interface wit that, google devepoled tons of models forthis, in tensoflwowhich we can utilize out of the box. And its very well-documentd for that sort of interaction, so its very low barrier of entry to do object detection and its obvoulsiy paired with the fact that its very protable. We canexcetue in a distributed way. Appleing. Free.
