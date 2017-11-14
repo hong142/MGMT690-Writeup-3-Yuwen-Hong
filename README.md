@@ -38,7 +38,7 @@ But at the same time, you can’t expect to contact a certain service person to 
 
 4. Nice Object Detection API
 
-Tensorflow object detection API has a nice interface and everything for the API is well-documented. With many prebuilt models, the barrier of entry to do object detection in Tensorflow is very low, and usually you don’t have to start from scratch. Especialy, the common setup of obejct detection, such as visulization of box and lable on object is taken care of by the APT, saving us a lot time in coding. There are varies ways to interact with the API depends on your need. Our team is planning to use Python as our programming language, so we can call it just like we call a package in python. You can also set a sever to interact with it.
+Tensorflow object detection API has a nice interface and everything for the API is well-documented. With many prebuilt models, the barrier of entry to do object detection in Tensorflow is very low, and usually you don’t have to start from scratch. Especialy, the common setup of obejct detection, such as visulization of box and lable on object is taken care of by the API, saving us a lot time in coding. There are varies ways to interact with the API depends on your need. Our team is planning to use Python as our programming language, so we can call it just like we call a package in python. You can also set a sever to interact with it.
 ## Hands on with Tensorflow
 Currently, there is no Pachyderm on our team’s machines, and we are connected to a remote machine in DigitalOcean’s cloud with a program called SSH. We will just guide you through the basic running process of Tensorflow object detection from python. 
 
